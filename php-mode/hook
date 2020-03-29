@@ -11,5 +11,6 @@
 "actionOrderStatusPostUpdate"
 "actionCartSave"
 "displayAdminAfterHeader"
+"moduleRoutes"
 ))}');
 $0
