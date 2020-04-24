@@ -7,6 +7,6 @@
     (fn []
       [:div
        [:> antd/Button {:on-click #(reset! visible? true)} $2]
-       [:> antd/Modal {:visible @visible? :on-cancel #(reset! visible? false)}
+       [:> antd/Modal {:visible @visible? :title "$1" :on-cancel #(reset! visible? false)}
         $0
         ]])))
